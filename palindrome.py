@@ -17,17 +17,23 @@ def is_palindrome(sentence: str) -> bool:
     >>> is_palindrome("Hallo . @ World??/ ")
     False
     """
+    # clean the sentence by removing numbers and special characters
     clean_str = ''
     for char in sentence:
         if char.lower().isalpha():
             clean_str += char
-
+    
+    # initially compare the letter at index 0 with the last letter
     start = 0
     end = len(clean_str) - 1
     while start < len(clean_str) and end > 0:
+        # returns false when the letter at start and letter at end do not match
         if clean_str[start] != clean_str[end]:
             return False
         else:
+            # right letter 
             start += 1
+            # left letter
             end -= 1
+    # returns true if line 32 has not been executed within the loop
     return True
