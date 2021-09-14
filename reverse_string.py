@@ -19,6 +19,4 @@ def reverse_string(word: str) -> str:
         index -= 1
     return result
 
-    # solution 2
-    # try implementing this function without a loop and use index instead
-    # return word[::-1]
+    # challenge: can you think of another implementation? 
