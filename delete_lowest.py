@@ -25,11 +25,3 @@ def delete_lowest(lst: List) -> List:
 
     lst.pop(index)
     return lst
-
-
-
-
-
-
-
-
