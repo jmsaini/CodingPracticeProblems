@@ -21,7 +21,3 @@ def compare_two(str1: str, str2: str) -> bool:
     #      return False
 
     # Challenge: find a substring in two strings that match
-
-
-
-
