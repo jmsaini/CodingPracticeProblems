@@ -15,6 +15,3 @@ def remove_vowels(word: str) -> str:
         if char not in vowels:
             new_word += char
     return new_word
-
-
-
