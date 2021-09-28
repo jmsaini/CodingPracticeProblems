@@ -21,4 +21,5 @@ def find_highest(cart: Dict) -> int:
     maximum = max(lst)
     find_index = lst.index(maximum)
     return find_index
-
+    
+    # Challenge: Can you optimize this solution? 
